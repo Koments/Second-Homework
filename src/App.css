@@ -1,0 +1,62 @@
+
+.aboutClubDynamo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(38, 38, 199);
+    
+  }
+  .players{
+      background-color: wheat;
+      padding: 10px;
+      color: black;
+  }
+.aboutClubShakhtar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(235, 130, 33);
+}
+.ball{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+.ball>p{
+    max-width: 150px;
+    text-align: center;
+}
+.input_question{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(192, 192, 192);
+    font-size: 20px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+.input_question:focus{
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.button_question{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: rgb(192, 192, 192);
+    vertical-align: top;
+}
+.button_question:active{
+    background-color:rgb(165, 165, 165);
+    transform: scale(.95);
+}
+.button_question:hover{
+    background-color:rgb(165, 165, 165);
+}
